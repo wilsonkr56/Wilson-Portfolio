@@ -1,0 +1,141 @@
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+h1,h3{
+    font-size: 2em;
+    font-family: 'Benne', serif;
+} 
+h5{
+    font-size: 1.5em
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-github {
+  background: #080808;
+  color: white;
+}
+div h3,h5{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+body{
+    background-color: rgba(70, 148, 135, 0.952);
+}
+section{
+    /* padding-bottom: 75px;  */
+    padding-top: 65px ;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 400px;
+    height: 400px; */
+}
+.service{
+    margin-bottom: 25px;
+}
+#headinggroup .img-fluid{
+    width: 200px;
+    height: 200px;
+}
+.col #headinggroup img{
+    border-radius: 50%;
+}
+.card {
+        margin: 0 auto; 
+        /* float: none;*/ 
+        margin-bottom: 10px;
+        
+}
+.col-md-4 #t :hover{
+background-color: rgb(65, 60, 60);
+}
+
+.col-md-4 .card :hover{
+
+    background-color:rgba(232, 239, 240, 0.637); 
+   
+}
+.cont{
+    margin-bottom: 50px;
+}
+span{
+    color: red;
+}
+button{
+    color: white;
+    background-color: red;
+}
+h6{
+    color: white;
+    text-align: center;
+}
+
+#s{
+    color: #080808;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    /* padding-bottom: 0px; */
+}
+#carouselExampleCaptions{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(min-width:576px){
+    #carouselExampleCaptions{
+        width: 576px;
+    }
+}
+@media(min-width:768px){
+    #carouselExampleCaptions{
+        width: 768px;
+    }
+}
+@media(min-width:992px){
+    #carouselExampleCaptions{
+        width: 992px;
+        justify-content: center;
+    }
+}
+@media(min-width:1200px){
+    #carouselExampleCaptions{
+        width: 1200px;
+    }
+}
+#contact-right{
+    margin: auto;
+}
+#contact-below{
+   text-align: center;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
